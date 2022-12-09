@@ -1,0 +1,83 @@
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    height: 80vh;
+    width: 1024px;
+    overflow: hidden;
+    .wrapper {
+        display: flex;
+        margin-top: 60px;
+        font-size: 25px;
+        width: 700px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        flex-direction: column;
+        height: 550px;
+        align-items: center;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            margin: 30px 35px;
+        }
+
+        .text2 {
+            font-size: 45px;
+            margin: 10px;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:  rgb(49, 102, 215);
+        }
+        .text3 {
+            font-size: 25px;
+            margin: 10px;
+            color: gray;
+            align-self: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+    .wrapper2 {
+        margin-top: 60px;
+        height: 550px;
+        font-size: 25px;
+        width: 400px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        text-align: center;
+        .header {
+            font-weight: 800;
+            color: #504eef;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content {
+            color: #2c29c7;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .line {
+            height: 1px;
+            width: 400px;
+            background-color: rgb(196, 199, 205);
+        }
+        .line2 {
+            background-color: rgb(49, 102, 215);
+            height: 10px;
+            width: 133%;
+            margin-left: -50px;
+
+        }
+        .header2 {
+            margin: 50px;
+            text-align: center;
+        }
+        .headers {
+            font-weight: 900;
+            color: #504eef;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+
+        }
+    }
+}
