@@ -21,6 +21,8 @@ const TopBar = () => {
 				<Link to='/project'>Projects</Link>
 				<Link to='/resume'>Resumes</Link>
 				<Link to='/contact'>Contacts</Link>
+				<Link to='/contact'>About US</Link>
+
 			</div>
 		</div>
 	);
